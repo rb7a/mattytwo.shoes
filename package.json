@@ -1,14 +1,11 @@
 {
   "name": "mattytwoshoes.com",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "template for my personal site",
   "author": "Matthew Brandt <matthewbrandt@gmail.com>",
   "license": "GPLv3",
   "repository": {
     "type": "",
-    "url": ""
-  },
-  "bugs": {
     "url": ""
   },
   "scripts": {
@@ -28,7 +25,8 @@
     "watch:js": "onchange \"src/js\" -- run-s build:js",
     "watch:images": "onchange \"src/images\" -- run-s build:images",
     "watch": "run-p serve watch:*",
-    "postinstall": "run-s build watch"
+    "postinstall": "run-s build watch",
+    "start": "node server.js"
   },
   "devDependencies": {
     "autoprefixer": "^9.0.1",
@@ -55,6 +53,9 @@
     "@greenlock/manager": "^3.1.0",
     "acme-http-01-standalone": "^3.0.5",
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
     "react-native-vector-icons": "^7.0.0"
-  }
+  },
+  "keywords": []
 }

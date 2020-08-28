@@ -2,6 +2,7 @@
 
 var path = require('path');
 var express = require('express');
+var bodyParser = require('body-parser');
 var app = express();
 
 app.get('/', express.static(path.join(__dirname, "public")));

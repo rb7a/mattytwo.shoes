@@ -1,20 +1,7 @@
 'use strict';
 
-var app = require('./app.js');
+const app = require('./app');
 
-require('greenlock-express')
-    .init({
-        packageRoot: __dirname,
-
-        // contact for security and critical bug notices
-        maintainerEmail: "matthewbrandt@gmail.com",
-
-        // where to look for configuration
-        configDir: './greenlock.d',
-
-        // whether or not to run at cloudscale
-        cluster: false
-    })
-    // Serves on 80 and 443
-    // Get's SSL certificates magically!
-    .serve(app);
+const server = app.listen(3000, () => {
+  console.log(`Express is running on port ${server.address().port}`);
+});

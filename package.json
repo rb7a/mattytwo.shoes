@@ -54,6 +54,7 @@
     "acme-http-01-standalone": "^3.0.5",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "jam-icons": "^2.0.0",
     "path": "^0.12.7",
     "react-native-vector-icons": "^7.0.0"
   },

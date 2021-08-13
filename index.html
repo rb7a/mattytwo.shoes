@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body class="is-boxed has-animations">
+<body class="is-boxed has-animations lights-off">
     <div class="body-wrap boxed-container">
         <header class="site-header">
             <div class="container">
@@ -34,7 +34,7 @@
 								<a class="button button-primary" href="#calendy-cta">Let's Talk!</a>
 								<div class="lights-toggle">
 									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
-									<label for="lights-toggle" class="text-xs"><span><span class="label-text"></span> mode</span></label>
+									<label for="lights-toggle" class="text-xs"><span><span class="label-text">light</span> mode</span></label>
 								</div>
 							</div>
 						</div>
@@ -98,9 +98,22 @@
 									<div class="feature-content">
                                     	<h3 class="feature-title mt-0">Self</h3>
                                     	<p class="text-sm mb-0">I consider myself to be more of a generalist than a specialist, all the while operating within the field of data analytics; hence the term Full-Stack Analyst*. All facets of the analytics spectrum excite me, be it concepts and ideation with stakeholders, requirements engineering, writing specifications for technical implementations or code to support data collection, liasing with data scientists to support the creation of data products, drafting queries in SQL to analyse data sets or building reports and dashboards to help people make smarter decisions.</p>
-                                        <p class="text-sm mb-0 mb-1">*I cannot take credit for the term itself, which comes from <a href="https://www.fullstackanalyst.io/the-full-stack-analyst/?r=mbr" target="_blank">Frederik Werner</a>.</p>
+                                        <p class="text-sm mb-1">*I cannot take credit for the term itself, which comes from <a href="https://www.fullstackanalyst.io/the-full-stack-analyst/?r=mbr" target="_blank">Frederik Werner</a>.</p>
 									</div>
 								</div>
+                            </div>
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
+                                        <img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
+                                    </div>
+                                    <div class="feature-content">
+                                        <h3 class="feature-title mt-0">Streaming</h3>
+                                        <p class="text-sm mb-0">Since December 2020, I have been livestreaming twice a week on Twitch. With my streams, I hope to learn and educate the global community about data & analytics. As formal education opportunities to enter this field are few and far between (and lagging several years behind the current state), I feel like this is a great opportunity to foster a better understanding of data.</p>
+                                        <p class="text-sm mb-1">I am proud to be part of a lovely streaming community known as <a href="https://www.twitch.tv/team/theclaw" target="_blank">The Claw</a>.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -138,13 +151,33 @@
                             <a href="/legal">Legal Schmegal</a>
                         </li> -->
                     </ul>
-                    <ul>
-                        <a target="_blank" href="https://linkedin.com/in/matthewabrandt">
-                            <svg class="linkedin" fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
-                        </a>
-                    
+                    <ul class="footer-social-links">
+                        <li>
+                            <a href="https://linkedin.com/in/matthewabrandt">
+                                <svg class="linkedin" fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
+                            </a>
+                        </li>
+                        <li>
+                             <a href="https://twitch.tv/matty_twoshoes">
+                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512"><path fill="#fff" d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                             <a href="https://www.youtube.com/channel/UCBWOeFI-Pc6qW6NBTVQijEQ">
+                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 448 512"><path fill="#fff" d="M186.8 202.1l95.2 54.1-95.2 54.1V202.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9 7.6-28.5 7.6-88.1 7.6-88.1z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        </li>
+                        <li>
+                             <a href="https://www.polywork.com/mattytwoshoes">
+                                <svg aria-hidden="true" focusable="false" role="img" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#fff" d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"></path>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2020 Matthew Brandt aka @mattytwoshoes</div>
+                    <div class="footer-copyright">&copy; Matthew Brandt aka mattytwoshoes</div>
                 </div>
             </div>
         </footer>
@@ -152,3 +185,21 @@
     <script src="dist/js/main.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

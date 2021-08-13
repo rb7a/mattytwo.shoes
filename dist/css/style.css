@@ -1502,15 +1502,17 @@ main {
     width: 100%;
     display: inline-flex;
     justify-content: center;
+    list-style: none;
 }
 .footer-brand,
 .footer-links,
 .footer-social-links {
     margin-bottom: 24px;
+    list-style: none;
 }
 .footer-links li + li,
 .footer-social-links li + li {
-    margin-left: 16px;
+    list-style: none;
 }
 .footer-social-links li {
     display: inline-flex;
@@ -1573,6 +1575,7 @@ main {
 .lights-off {
     color: #8595ae;
 }
+
 .lights-off .asset-light {
     display: none;
 }
@@ -1582,6 +1585,7 @@ main {
 .lights-off a {
     color: #F6C9FD;
 }
+
 .lights-off h1,
 .lights-off h2,
 .lights-off h3,

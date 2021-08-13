@@ -15,6 +15,8 @@ I fall into a self-titled category called the "Full-Stack Analyst" and have expe
 
 In general, I have high tech-literacy and a service mindset. I will do anything to please my customers, whether they are internal employees or end-users of the platform I am working on!
 
-You can find more about me on my personal website [mattytwoshoes](http://mattytwoshoes.com "mattytwoshoes.com - my personal site")
+You can find more about me on my personal website [mattytwoshoes](http://mattytwo.shoes "mattytwo.shoes - my personal site")
+
+Come watch me livestream regulary on [Twitch](http://twitch.tv/matty_twoshoes "my Twitch channel") twice a week!
 
 ⚡ Fun fact: I have only lived in countries with 🟥red and ⬜white flags. Can you guess which ones?

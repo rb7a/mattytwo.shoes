@@ -120,7 +120,10 @@
                                             are few and far between (and lagging several years behind the current state), I feel like this is a great opportunity to foster a better understanding of data.</p>
                                         <p class="text-sm mb-0 mb-1">I am proud to be part of a lovely streaming community known as <a href="https://theclaw.team" target="_blank">The Claw</a>.</p>
                                     </div>
+
                                 </div>
+                                <!-- Add a placeholder for the Twitch embed -->
+                                <div id="twitch-embed" class="twitch-video"></div>
                             </div>
                         </div>
                     </div>
@@ -191,6 +194,15 @@
         </footer>
     </div>
     <script src="src/js/main.js"></script>
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <script type="text/javascript">
+        new Twitch.Player("twitch-embed", {
+            channel: "matty_twoshoes",
+            muted: true,
+            height: 360,
+            width: 640
+        });
+    </script>
 </body>
 
 </html>

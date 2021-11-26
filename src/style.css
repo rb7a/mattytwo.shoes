@@ -466,6 +466,9 @@ h6,
         line-height: 30px;
         letter-spacing: -0.1px
     }
+    .twitch-video {
+        zoom: 0.5;
+    }
 }
 
 .text-light {
@@ -1600,6 +1603,10 @@ label {
 
 .lights-off .features-box {
     box-shadow: 48px 16px 48px rgba(0, 0, 0, 0.2)
+}
+
+.twitch-video {
+    padding: 20px 0px;
 }
 
 .feature {

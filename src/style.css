@@ -8,6 +8,11 @@ body {
     margin: 0
 }
 
+::selection {
+    color: white;
+    background-color: #755ACD;
+}
+
 article,
 aside,
 footer,

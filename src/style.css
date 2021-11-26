@@ -351,7 +351,7 @@ html {
 }
 
 body {
-    color: #6B7A90;
+    color: #3D4652;
     font-size: 1rem
 }
 
@@ -1469,9 +1469,10 @@ label {
     margin-bottom: 80px
 }
 
-.lights-toggle {
-    color: rgba(107, 122, 144, 0.64)
-}
+
+/* .lights-toggle {
+    color: #68788e;
+} */
 
 .header-illustration {
     display: none
@@ -1809,7 +1810,8 @@ main {
     flex: none;
     width: 100%;
     display: inline-flex;
-    justify-content: center
+    justify-content: center;
+    color: #A1ACBA;
 }
 
 .footer-brand,
@@ -1891,7 +1893,7 @@ main {
 }
 
 .lights-off {
-    color: #8595AE
+    color: #A1ACBA;
 }
 
 .lights-off .asset-light {

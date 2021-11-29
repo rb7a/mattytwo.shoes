@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/matthewbrandt/mattytwo.shoes/issues"
   },
-  "homepage": "https://github.com/matthewbrandt/mattytwo.shoes#readme"
+  "homepage": "https://github.com/matthewbrandt/mattytwo.shoes#readme",
+  "dependencies": {
+    "@snowplow/browser-tracker": "^3.1.6"
+  }
 }

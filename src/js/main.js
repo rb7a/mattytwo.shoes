@@ -1,3 +1,13 @@
+// import { newTracker } from './../../node_modules/@snowplow/browser-tracker';
+// import { SiteTrackingPlugin } from './../../node_modules/@snowplow/browser-plugin-site-tracking';
+// import { PerformanceTimingPlugin } from './../../node_modules/@snowplow/browser-plugin-performance-timing';
+// import { ClientHintsPlugin } from './../../node_modules/@snowplow/browser-plugin-client-hints';
+// import { FormTrackingPlugin, enableFormTracking } from './../../node_modules/@snowplow/browser-plugin-form-tracking';
+
+// newTracker('mattysnowshoes', 'https://2a7cb7a4-d72c-49c6-a653-90f10d8954bd.app.try-snowplow.com', { plugins: [ PerformanceTimingPlugin(), SiteTrackingPlugin(), ClientHintsPlugin(), FormTrackingPlugin() ] }); // Also stores reference at module level
+
+// enableFormTracking() // Switch on form tracking
+
 (function() {
     const doc = document
     const rootEl = doc.documentElement

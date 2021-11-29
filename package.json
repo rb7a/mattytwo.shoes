@@ -1,0 +1,19 @@
+{
+  "name": "mattytwo.shoes",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewbrandt/mattytwo.shoes.git"
+  },
+  "author": "Matthew Brandt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewbrandt/mattytwo.shoes/issues"
+  },
+  "homepage": "https://github.com/matthewbrandt/mattytwo.shoes#readme"
+}

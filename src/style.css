@@ -1609,6 +1609,12 @@ label {
     padding: 20px 0px;
 }
 
+.twitch-video iframe {
+    background-color: #EFCCFB;
+    margin: 0 auto;
+    display: block;
+}
+
 .feature {
     text-align: center;
     margin-bottom: 48px

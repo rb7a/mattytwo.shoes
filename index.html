@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="https://the-claw-webring-widget.netlify.app/the-claw-webring-widget.mjs" type="module"></script>
+    <script async class="elbwalker" src="src/js/walker.js" data-default="true"></script>
   </head>
 
-  <body class="is-boxed has-animations lights-off">
+  <body data-elbglobals="pagetype:home" data-elb="home" class="is-boxed has-animations lights-off">
     <div class="body-wrap boxed-container">
       <!-- <header class="site-header">
                         <div class="container">
@@ -33,7 +34,7 @@
                 <p class="hero-paragraph">Some people call me Matty or @mattytwoshoes, my online handle.</p>
                 <p>I make data taste better!</p>
                 <div class="hero-cta">
-                  <a class="button button-primary" href="#patreon">support me</a>
+                  <a data-elbtrack="support:anchor" class="button button-primary" href="#patreon">support me</a>
                   <div class="lights-toggle">
                     <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked" />
                     <label for="lights-toggle" class="text-xs">
@@ -290,7 +291,7 @@
                   can ask anything you like.
                 </p>
                 <div class="cta-cta">
-                  <a class="button button-primary" href="https://www.patreon.com/mattytwoshoes">To Patreon!</a>
+                  <a data-elbaction="click" class="button button-primary" href="https://www.patreon.com/mattytwoshoes">To Patreon!</a>
                 </div>
               </div>
             </div>

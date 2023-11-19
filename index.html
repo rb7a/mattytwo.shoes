@@ -13,7 +13,7 @@
     <script async class="elbwalker" src="src/js/walker.js" data-default="true"></script>
   </head>
 
-  <body data-elbglobals="pagetype:home" data-elb="home" class="is-boxed has-animations lights-off">
+  <body data-elbglobals="pagetype:home" class="is-boxed has-animations lights-off">
     <div class="body-wrap boxed-container">
       <!-- <header class="site-header">
                         <div class="container">
@@ -29,14 +29,15 @@
         <section class="hero">
           <div class="container">
             <div class="hero-inner">
-              <div class="hero-copy">
+              <div data-elb="hero" class="hero-copy">
                 <h1 class="hero-title mt-0">Hi. I'm Matthew Brandt.</h1>
                 <p class="hero-paragraph">Some people call me Matty or @mattytwoshoes, my online handle.</p>
                 <p>I make data taste better!</p>
                 <div class="hero-cta">
-                  <a data-elbtrack="support:anchor" class="button button-primary" href="#patreon">support me</a>
+                  <a data-elbaction="click" class="button button-primary" href="#patreon">support me</a>
                   <div class="lights-toggle">
-                    <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked" />
+                    <!-- @TODO: add elbaction for toggle -->
+                    <input data-elbaction="XXX" id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked" />
                     <label for="lights-toggle" class="text-xs">
                       <span>
                         <span class="label-text"></span>
@@ -157,13 +158,13 @@
                         src="src/img/side-projects.svg"
                       />
                     </div>
-                    <div class="feature-content">
+                    <div data-elb="side_projects" class="feature-content">
                       <h3 class="feature-title mt-0">Side-Projects</h3>
                       <p class="text-sm mb-0">
                         As part of livestreaming (see below), I spend a lot of time building little sideprojects to
                         practice programming as well as solve problems, either for me or for others. You can see what
                         kinds of things I have built
-                        <a href="./side-projects.html">here!</a>
+                        <a data-elbaction="click" href="./side-projects.html">here!</a>
                       </p>
                     </div>
                   </div>
@@ -184,10 +185,10 @@
                         src="src/img/speaking.svg"
                       />
                     </div>
-                    <div class="feature-content">
+                    <div data-elb="side_projects" class="feature-content">
                       <h3 class="feature-title mt-0">Speaking</h3>
                       <p class="text-sm mb-0">
-                        If you're interested in hearing me talk about data, livestreaming or building things, then <a href="/speaking.html" rel="nofollow noreferrer">
+                        If you're interested in hearing me talk about data, livestreaming or building things, then <a data-elbaction="click" href="/speaking.html" rel="nofollow noreferrer">
                           check out this page</a> for any of my upcoming talks!
                       </p>
                     </div>
@@ -209,10 +210,10 @@
                         src="src/img/setup.svg"
                       />
                     </div>
-                    <div class="feature-content">
+                    <div data-elb="setup" class="feature-content">
                       <h3 class="feature-title mt-0">Setup</h3>
                       <p class="text-sm mb-0">
-                        Lots of people ask me what gear and software I use for both work and building things. I put together this <a href="/setup.html" rel="nofollow noreferrer">page</a> for you to have an easy to way to see it all!
+                        Lots of people ask me what gear and software I use for both work and building things. I put together this <a data-elbaction="click" href="/setup.html" rel="nofollow noreferrer">page</a> for you to have an easy to way to see it all!
                       </p>
                     </div>
                   </div>
@@ -260,15 +261,16 @@
                         src="src/img/streaming.svg"
                       />
                     </div>
-                    <div class="feature-content">
+                    <div data-elb="streaming" class="feature-content">
                       <h3 class="feature-title mt-0">Streaming</h3>
                       <p class="text-sm mb-0">
                         Since December 2020, I have been livestreaming multiple times weekly on Twitch. With my streams, I learn and educate the global community about data & analytics. As formal education opportunities to enter this field are few and far between (and lagging several years behind the current state), this is a great opportunity to foster a better understanding of
-                        data. If you're a brand interested in working with me, check out <a href="/sponsorship.html" target="_blank">my media kit</a>!
+                        data. If you're a brand interested in working with me, check out <a data-elbaction="click" href="/sponsorship.html" target="_blank">my media kit</a>!
                       </p>
+                      <!-- @TODO: diffrentiate claw team click from above one -->
                       <p class="text-sm mb-0 mb-1">
                         I am proud to be part of a lovely streaming community known as
-                        <a href="https://theclaw.team" target="_blank">The Claw</a>
+                        <a data-elbaction="click" href="https://theclaw.team" target="_blank">The Claw</a>
                         .
                       </p>
                     </div>
@@ -276,14 +278,14 @@
                 </div>
               </div>
               <!-- Add a placeholder for the Twitch embed -->
-              <div id="twitch-embed" class="twitch-video"></div>
+              <div data-elb="twitchplayer" data-elbaction="click" id="twitch-embed" class="twitch-video"></div>
             </div>
           </div>
         </section>
         <section class="cta section">
           <div class="container-sm">
             <div class="cta-inner section-inner">
-              <div class="cta-header text-center">
+              <div data-elb="support" class="cta-header text-center">
                 <h2 id="patreon" class="section-title mt-0">Support me on Patreon!</h2>
                 <p class="section-paragraph">
                   You can support the work I am doing by pledging to my Patreon! There are various rewards like
@@ -300,9 +302,10 @@
       </main>
       <footer class="site-footer has-top-divider">
         <div class="container">
-          <div class="site-footer-inner">
+          <!-- @TODO: finalise footer tracking and copy to other pages -->
+          <div data-elb="footer" class="site-footer-inner">
             <div class="brand footer-brand">
-              <a href="#">
+              <a data-elbaction="click" href="#">
                 <img class="footer-logo asset-light" src="src/img/logo.png" alt="Logo" />
                 <img class="footer-logo asset-dark" src="src/img/logo.png" alt="Logo" />
               </a>
@@ -312,7 +315,7 @@
             </div>
             <ul class="footer-social-links">
               <li>
-                <a aria-label="Matthew Brandt on Patreon" href="https://www.patreon.com/mattytwoshoes">
+                <a data-elbaction="click" aria-label="Matthew Brandt on Patreon" href="https://www.patreon.com/mattytwoshoes">
                   <svg
                     class="patreon"
                     fill="#fff"
@@ -330,7 +333,7 @@
                 </a>
               </li>
               <li>
-                <a aria-label="Matthew Brandt on LinkedIn" href="https://linkedin.com/in/mattytwoshoes">
+                <a data-elbaction="click" aria-label="Matthew Brandt on LinkedIn" href="https://linkedin.com/in/mattytwoshoes">
                   <svg
                     class="linkedin"
                     fill="#fff"
@@ -346,7 +349,7 @@
                 </a>
               </li>
               <li>
-                <a aria-label="Matty_TwoShoes on Twitch.tv" href="https://twitch.tv/matty_twoshoes">
+                <a data-elbaction="click" aria-label="Matty_TwoShoes on Twitch.tv" href="https://twitch.tv/matty_twoshoes">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -364,7 +367,7 @@
                 </a>
               </li>
               <li>
-                <a aria-label="Matthew Brandt on YouTube" href="https://www.youtube.com/c/mattytwoshoes">
+                <a data-elbaction="click" aria-label="Matthew Brandt on YouTube" href="https://www.youtube.com/c/mattytwoshoes">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -382,7 +385,7 @@
                 </a>
               </li>
               <li>
-                <a aria-label="Matthew Brandt on Github" href="https://github.com/matthewbrandt">
+                <a data-elbaction="click" aria-label="Matthew Brandt on Github" href="https://github.com/matthewbrandt">
                   <svg
                     aria-hidden="true"
                     focusable="false"

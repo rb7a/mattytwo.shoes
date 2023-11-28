@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/matthewbrandt/mattytwo.shoes/issues"
   },
-  "homepage": "https://github.com/matthewbrandt/mattytwo.shoes#readme"
+  "homepage": "https://mattytwo.shoes",
+  "devDependencies": {
+    "@elbwalker/walker.js": "^1.6.5",
+    "netlify-cli": "^17.7.0"
+  }
 }

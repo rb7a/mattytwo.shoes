@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="src/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script async class="elbwalker" src="src/js/walker.js" data-default="true"></script>
+    <script type="module">
+      function elb() {
+        (window.elbLayer = window.elbLayer || []).push(arguments);
+      }
+
+      elb('walker destination', {
+        push: console.log,
+      });
+    </script>
 </head>
 
 <body data-elbglobals="pagetype:side-projects" class="is-boxed has-animations lights-off">
@@ -153,7 +162,7 @@
                   <img class="footer-logo asset-dark" src="src/img/logo.png" alt="Logo" />
                 </a>
               </div>
-              <div data-elb="footer-logo" data-elbaction="click" class="the-claw-webring-widget">
+              <div data-elb="footer-webring" data-elbaction="click" class="the-claw-webring-widget">
                 <the-claw-webring-widget theme="dark" hideMembers="true"></the-claw-webring-widget>
               </div>
               <ul class="footer-social-links">
